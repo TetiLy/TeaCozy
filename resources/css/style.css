@@ -19,6 +19,7 @@ header{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
+  background-color: inherit;
 
 }
 header img {
@@ -36,4 +37,52 @@ nav a {
   border-color: yellow;
   color:inherit;
 
+}
+#bigimage {
+  border-style: solid;
+  border-color:red;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.mainbox{
+  border-style: solid;
+  border-color: white;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.blackline {
+  background-color: black;
+  width: inherit;
+
+}
+.blackline2 {
+  border-style: solid;
+  border-color: yellow;
+  width:inherit;;
+}
+.secondpart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:1000px;
+}
+.photo {
+  width: 300px;
+  height: 200px;
+}
+.line {
+  border-style: solid;
+  border-color: lightblue;
+  display:flex;
+  flex-direction: row;
+  
 }
