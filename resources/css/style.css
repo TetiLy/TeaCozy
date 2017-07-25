@@ -5,10 +5,9 @@ body{
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  justify-content: center;
 }
 header{
-  border-style: solid;
-  border-color: red;
   position:fixed;
   right:0px;
   left:0px;
@@ -23,41 +22,36 @@ header{
 
 }
 header img {
-  border-style: solid;
-  border-color: blue;
   padding-left: 10px;
   height: 50px;
 }
-nav {
-  border-style: solid;
-  border-color: purple;
-}
+
 nav a {
-  border-style: solid;
-  border-color: yellow;
   color:inherit;
 
 }
 #bigimage {
-  border-style: solid;
-  border-color:red;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+.firstpart {
   height:700px;
   width: 1200px;
   display: flex;
   align-items: center;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: auto;
+
 }
-.mainbox{
-  border-style: solid;
-  border-color: white;
+
+
+.mainbox {
   margin-top: 70px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+
 }
 .blackline {
   background-color: black;
@@ -65,24 +59,80 @@ nav a {
 
 }
 .blackline2 {
-  border-style: solid;
-  border-color: yellow;
-  width:inherit;;
+  width:inherit;
 }
 .secondpart{
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   width:1000px;
+  margin: auto;
+
 }
 .photo {
   width: 300px;
   height: 200px;
+  padding: 10px 10px 10px 10px;
 }
 .line {
-  border-style: solid;
-  border-color: lightblue;
+
   display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h4{
+  padding: 0px 0px 0px 0px;
+}
+
+#bigimage2 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+.thirdpart {
+
+  height:500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.locations {
+
+  display: flex;
   flex-direction: row;
-  
+  justify-content: center;
+}
+.blocks {
+
+  height: 300px;
+  width:300px;
+  margin-top: 0px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.transpline {
+  display: flex;
+  align-items: baseline;
+}
+.transpline h2 {
+  margin: auto;
+  padding-bottom: 15px;
+
+}
+.fourthpart {
+  height:200px;
+}
+footer {
+  text-align: left;
+  margin-right: 20px;
 }
